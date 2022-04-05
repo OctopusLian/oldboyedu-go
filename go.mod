@@ -7,13 +7,16 @@ replace github.com/coreos/bbolt v1.3.4 => go.etcd.io/bbolt v1.3.4
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 require (
+	github.com/DeanThompson/ginpprof v0.0.0-20201112072838-007b1e56b2e1
 	github.com/Shopify/sarama v1.32.0
+	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/hpcloud/tail v1.0.0
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/olivere/elastic v6.2.37+incompatible
+	github.com/satori/go.uuid v1.2.0
 	go.etcd.io/etcd v3.3.27+incompatible
 	gopkg.in/ini.v1 v1.66.4
 )
@@ -31,6 +34,10 @@ require (
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/go-playground/locales v0.13.0 // indirect
+	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/validator/v10 v10.4.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
@@ -46,8 +53,13 @@ require (
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jonboulle/clockwork v0.2.3 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.14.4 // indirect
+	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mattn/go-isatty v0.0.12 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/onsi/gomega v1.19.0 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
@@ -56,6 +68,7 @@ require (
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
+	github.com/ugorji/go/codec v1.1.7 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
