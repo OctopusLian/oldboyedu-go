@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"code.oldboyedu.com/day09/split_string"
+	"oldboyedu-go/day09/split_string"
 )
 
 func main() {

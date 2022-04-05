@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code.oldboyedu.com/day06/mylogger"
+	"oldboyedu-go/day06/mylogger"
 )
 
 var log mylogger.Logger // 声明一个全局的接口变量

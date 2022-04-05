@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// \ 本来是具有特殊含义的，我应该告诉程序我写的\就是一个单纯的\
-	path := "'D:\\Go\\src\\code.oldboyedu.com\\studygo\\day01'"
+	path := "'D:\\Go\\src\\oldboyedu-go\\studygo\\day01'"
 	fmt.Println(path)
 
 	s := "I'm ok"
@@ -21,7 +21,7 @@ func main() {
 		雨送黄昏花易落
 	`
 	fmt.Println(s2)
-	s3 := `D:\Go\src\code.oldboyedu.com\studygo\day01`
+	s3 := `D:\Go\src\oldboyedu-go\studygo\day01`
 	fmt.Println(s3)
 
 	// 字符串相关操作

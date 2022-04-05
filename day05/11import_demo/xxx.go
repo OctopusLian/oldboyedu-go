@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	zhoulin "code.oldboyedu.com/day05/10calc"
+	zhoulin "oldboyedu-go/day05/10calc"
 )
 
 var x = 100
